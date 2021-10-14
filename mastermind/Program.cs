@@ -6,7 +6,24 @@ namespace mastermind
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] combi;
+            ChoixCombi(out combi);
+            Afficher(combi);
         }
-    }
-}
+
+        static void Choix combi() {
+            combi = new int[4];
+            for (int i = 0; i <= 3; i++) {
+                Random rnd = new Random();
+                //int valeur = rnd.Next(1. 7);
+                combi[i] = valeur;
+            }
+        }
+
+        static void Afficher() {
+            for (int i = 0; i <= 3; i++)
+
+                Console.Write(combi[i]);
+        }
+    } 
+    
