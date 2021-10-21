@@ -10,7 +10,7 @@ namespace mastermind
             ChoixCombi(out combi);
             Afficher(combi);
         }
-
+        //Cette fonction permet à l'ordinateur de choisir une combinaison de 4 chiffres
         static void Choix combi() {
             combi = new int[4];
             for (int i = 0; i <= 3; i++) {
@@ -27,3 +27,4 @@ namespace mastermind
         }
     } 
     
+  
