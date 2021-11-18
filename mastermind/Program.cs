@@ -9,22 +9,34 @@ namespace mastermind
             int[] combi;
             ChoixCombi(out combi);
             Afficher(combi);
+            Console.WriteLine();
+            Console.WriteLine("Entrez une combinaison");
+            proposition = Console.ReadLine();
         }
         //Cette fonction permet à l'ordinateur de choisir une combinaison de 4 chiffres
-        static void Choix combi() {
+        static void ChoixCombi(out int[] combi)
+        {
+            
             combi = new int[4];
-            for (int i = 0; i <= 3; i++) {
+            for (int i = 0; i <= 3; i++)
+            {
                 Random rnd = new Random();
-                //int valeur = rnd.Next(1. 7);
+                int valeur = rnd.Next(1, 7);
                 combi[i] = valeur;
             }
         }
 
-        static void Afficher() {
+        static void Afficher(int[] combi)
+        {
             for (int i = 0; i <= 3; i++)
-
+            {
                 Console.Write(combi[i]);
+            }
+
+        
+
         }
-    } 
+    }
+}
     
   

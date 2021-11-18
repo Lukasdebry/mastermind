@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\210733\\source\\repos\\mastermind\\mastermind.csproj": {}
+    "C:\\Users\\210733\\Documents\\mastermind\\mastermind\\mastermind.csproj": {}
   },
   "projects": {
-    "C:\\Users\\210733\\source\\repos\\mastermind\\mastermind.csproj": {
+    "C:\\Users\\210733\\Documents\\mastermind\\mastermind\\mastermind.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\210733\\source\\repos\\mastermind\\mastermind.csproj",
+        "projectUniqueName": "C:\\Users\\210733\\Documents\\mastermind\\mastermind\\mastermind.csproj",
         "projectName": "mastermind",
-        "projectPath": "C:\\Users\\210733\\source\\repos\\mastermind\\mastermind.csproj",
+        "projectPath": "C:\\Users\\210733\\Documents\\mastermind\\mastermind\\mastermind.csproj",
         "packagesPath": "C:\\Users\\210733\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\210733\\source\\repos\\mastermind\\obj\\",
+        "outputPath": "C:\\Users\\210733\\Documents\\mastermind\\mastermind\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\210733\\AppData\\Roaming\\NuGet\\NuGet.Config",
